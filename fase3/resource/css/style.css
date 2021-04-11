@@ -9,10 +9,9 @@ body{
 }
 
 header{
-    background-color: #4e8aa0;
+    background-color: rgb(134, 196, 235);
     text-align: center;
-    vertical-align: center;
-    padding-top: 30px;
+    padding: 15px;
     height: 10vh;
 }
 
@@ -51,12 +50,12 @@ nav.menu li {
 
 .menu > ul > li{
     padding: 10px;
-    border: solid 1px #6ba2b6;
-    background: #4e8aa0;
+    border: solid 1px rgb(134, 196, 235);
+    background: rgb(134, 196, 235);
 } 
 
 .menu > ul > li:hover {
-    background: #6ba2b6;
+    background: rgb(109, 180, 224);
     transition: 1.0s all ease;
 } 
 
@@ -71,7 +70,7 @@ nav.menu li {
 }
 
 .option-active{
-    background: #6ba2b6 !important;
+    background: rgb(109, 180, 224) !important;
 }
 .container{
     display: flex;
