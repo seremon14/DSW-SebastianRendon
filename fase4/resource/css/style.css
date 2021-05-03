@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eef9fd;
+}
+
+header{
+    background-color: rgb(134, 196, 235);
+    text-align: center;
+    padding: 15px;
+    height: 10vh;
+}
+
+footer{
+    text-align: center;
+    background: #dcf6ff;
+    padding: 20px;
+}
+
+img{
+    box-shadow: 2px 5px 6px 0px rgb(0 0 0 / 50%);
+    padding: 10px;
+    border: solid 2px black;
+}
+
+nav.menu {
+    height:100px;
+    width: 100%;
+}
+
+nav.menu > ul{
+    height: 100%;
+    align-items: baseline;
+    justify-content: left;
+}
+
+nav.menu li {
+    width: 100%;
+    list-style: none;
+} 
+
+.menu ul li > a {
+    text-decoration: none;
+    color: #000000;
+} 
+
+.menu > ul > li{
+    padding: 10px;
+    border: solid 1px rgb(134, 196, 235);
+    background: rgb(134, 196, 235);
+} 
+
+.menu > ul > li:hover {
+    background: rgb(109, 180, 224);
+    transition: 1.0s all ease;
+} 
+
+.menu > ul > li > ul > li{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 8px;
+} 
+
+.menu ul li:hover > ul li{
+    display: block;
+}
+
+.option-active{
+    background: rgb(109, 180, 224) !important;
+}
+.container{
+    display: flex;
+}
+
+.container-content {
+    width: 100%;
+    padding: 0 4vw 0 4vw;
+}
+
+.container-content.home{
+    width: 70vw;
+}
+
+.container-content.rigth{
+    width: 30vw;
+}
+
+.aling-center{
+    text-align: center;
+}
+.text-content{
+    text-align: justify;
+}
+
+.width-main{
+    min-height: 25.5vw;
+}
